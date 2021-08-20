@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<form>
+	<fields addfieldpath="/administrator/components/com_fabrik/models/fields" name="params">
+		<fieldset name="plg-list-element_transformation">
+
+			<field type="helplink"
+				url="PLG_LIST_ELEMENT_TRANSFORMATION_HELP_SERVER" />
+
+			<field name="element_transformation_type"
+				   type="list"
+				   required="true"
+				   label="PLG_LIST_ELEMENT_TRANSFORMATION_TYPE_LABEL"
+				   description="PLG_LIST_ELEMENT_TRANSFORMATION_TYPE_DESC">
+				<option value="">PLG_LIST_ELEMENT_TRANSFORMATION_TYPE_VALUE0</option>
+				<option value="1">PLG_LIST_ELEMENT_TRANSFORMATION_TYPE_VALUE1</option>
+				<option value="2">PLG_LIST_ELEMENT_TRANSFORMATION_TYPE_VALUE2</option>
+				<option value="3">PLG_LIST_ELEMENT_TRANSFORMATION_TYPE_VALUE3</option>
+				<option value="4">PLG_LIST_ELEMENT_TRANSFORMATION_TYPE_VALUE4</option>
+			</field>
+
+			<field name="element_transformation_field"
+				   label="PLG_LIST_ELEMENT_TRANSFORMATION_FIELD_LABEL"
+				   description="PLG_LIST_ELEMENT_TRANSFORMATION_FIELD_DESC"
+				   onlytablefields="0"
+				   required="true"
+				   repeat="true"
+				   type="listfields"
+				   valueformat="tableelement"/>
+
+			<field name="element_transformation_field_element"
+				   label="PLG_LIST_ELEMENT_TRANSFORMATION_FIELD_ELEMENT_LABEL"
+				   description="PLG_LIST_ELEMENT_TRANSFORMATION_FIELD_ELEMENT_DESC"
+				   onlytablefields="0"
+				   required="true"
+				   repeat="true"
+				   type="listfields"
+				   valueformat="tableelement"/>
+
+			<field name="element_transformation_delimiter"
+				type="text"
+			    label="PLG_LIST_ELEMENT_TRANSFORMATION_DELIMITER_LABEL"
+			    description="PLG_LIST_ELEMENT_TRANSFORMATION_DELIMITER_DESC"
+				repeat="true"
+				size="3"
+			    maxlength="2"
+			/>
+
+			<field name="element_transformation_able" type="hidden" default="0" />
+
+		</fieldset>
+	</fields>
+</form>
