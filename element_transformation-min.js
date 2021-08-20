@@ -1,5 +1,3 @@
-/*! PITT */
-
 define(["jquery"], function (n, i) {
     jQuery('.fabrikForm').append('<div div class="modal fade" id="mdElementTransformation" tabindex="-1" role="dialog" data-backdrop="static" aria-labelledby="myModalLabel">' +
         '<div class="modal-dialog modal-sm" role="document">' +
