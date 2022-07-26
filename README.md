@@ -33,7 +33,7 @@ Dentre os tipos de transfomações existem 4 possibilidades:
 
  - Assim, o que era uma string em uma coluna vai virar um ID na nova coluna criada no BD. Depois do processo concluído o sistema deve automaticamente dar unpublish no elemento origem.
 
-- Nota: se o relacionamento configurado no databasejoin for 1-N, o algoritmo deve usar a tabela auxiliar criada para armazenar os IDs 
+- Nota: se o relacionamento configurado no databasejoin for 1-N, o algoritmo deve usar a tabela auxiliar criada para armazenar os IDs. 
 
 - Ao habilitar o sincronizar, se caso o algoritmo tiver um registro na lista origem com uma string no elemento origem que não for encontrada na lista vinculada, o sistema cria um registro na lista vinculada, pega o novo ID e armazena.
 
